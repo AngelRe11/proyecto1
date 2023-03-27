@@ -1,0 +1,200 @@
+* {
+    padding: 1;
+    margin: 1;
+}
+
+.principal {
+    background-color: rgb(214, 10, 10);
+}
+
+.am {
+    background-color: rgb(17, 141, 81);
+}
+
+.ferrari {
+    background-color: rgb(255, 40, 0);
+
+}
+.ferrari .campeones{
+    color: aqua;
+}
+.redbull {
+    background-color: midnightblue;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 25%;
+}
+
+img {
+    width: 100%;
+
+}
+
+.equipos {
+    width: 70%;
+    display: flex;
+    border: 5px solid black;
+    justify-content: space-evenly;
+    height: 120px;
+}
+
+.equipos li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.texto {
+    display: flex;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.lista {
+    float: left;
+    font-size: small;
+    width: 100%;
+}
+
+.logoam {
+    width: 30%;
+}
+
+.logoredbull {
+    width: 40%;
+}
+
+.logoferrari {
+    width: 40%;
+}
+
+.cocheam {
+    width: 50%;
+    display: flex;
+}
+
+.cocheferrari {
+    width: 60%;
+    margin-top: 20px;
+}
+
+.cocheredbull {
+    width: 60%;
+    margin-top: 20px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nombrealonso {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.tituloalonso {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.españa {
+    width: 50%;
+}
+
+.titulostroll {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.canada {
+    width: 50%;
+}
+
+.nombrestroll {
+    width: 50%;
+    font-size: 20px;
+}
+
+.titulocarlos {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.españa1 {
+    width: 50%;
+}
+
+.nombrecarlos {
+    width: 50%;
+    font-size: 20px;
+}
+
+.nombreleclerc {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.tituloleclerc {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.monaco {
+    width: 50%;
+}
+
+.holanda, .mexico{
+    width: 50%;
+}
+
+.nombreredbull, .nombream, .nombreferrari{
+    text-decoration: underline;
+}
+.constructores{
+   font-weight:bold ;
+   font-style: italic;
+   color: rgb(9, 230, 9);
+}
+.campeones{
+    font-weight: bold;
+    color: yellow;
+}
+.nombremax, .nombrecheco{
+    font-size: 20px;
+}
+.historiaam, .historiaalonso, .historiastroll{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.historiaferrari, .historiacarlos, .historialeclerc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.historiaredbull, .historiamax, .historiacheco{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
